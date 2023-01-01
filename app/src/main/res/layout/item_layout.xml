@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp"
+    android:stretchColumns="1,2,3">
+    <TableRow >
+
+        <TextView
+            android:layout_gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/text_id"
+            android:textSize="@dimen/fab_margin" />
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/text_type"
+            android:textSize="@dimen/fab_margin" />
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:id="@+id/text_value"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/fab_margin" />
+
+    </TableRow>
+
+
+</TableLayout>
